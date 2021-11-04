@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<h1 style="display:flex; flex-direction: row; justify-content:center; background-color: wheat; margin-top: 0px; padding: 30px 0;">JAVASCRIPT</h1>
+    </head>
+    <body>
+        <script>
+            var Money = 1000000
+            if (Money <= 7000000){
+                document.write('Tiền Thuế ', Money*10/100,'VNĐ')
+            }
+            else{
+                if(Money <= 15000000){
+                    document.write('Tiền Thuế ', Money*20/100, ' VNĐ')
+                }
+                else{
+                    document.write('Tiền Thuế ', Money*30/100, ' VNĐ')
+                }
+            }
+
+        </script>
+    </body>
+</html>
